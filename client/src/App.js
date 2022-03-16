@@ -25,7 +25,7 @@ function App () {
                 <Route exact path='/sign-up' element={<SignUp />} />
 
                 <Route element={<AppLayout />}>
-                  {/* <Route exact path='/home' element={<Home />} /> */}
+                
 
                   <Route exact path='/home' element={<ProtectedRoute />}>
                     <Route exact path='/home' element={<Home />} />
