@@ -9,7 +9,7 @@ import { fetchAllCompany, fetchCompanyData } from "../helpers/Apis/company";
  * this Component is for state management of  the current company and all companies  data
  *
  * @component
- * @param CompanyContextProps
+ * @param
  * @returns {FunctionStringCallback}
  */
 
