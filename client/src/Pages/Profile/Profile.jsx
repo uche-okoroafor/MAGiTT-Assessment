@@ -53,7 +53,7 @@ export default function Profile() {
         handleFetchCompanyData(companyData._id);
         updateSnackBarMessage("user successfully added");
       } else {
-        // should not get here from backend but this catch is for an unknown issue
+        // should not get here from backend but this catch is for an unknown issue can be displayed
         console.error({ data });
         updateSnackBarMessage("An unexpected error occurred. Please try again");
       }
